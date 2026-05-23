@@ -1,19 +1,38 @@
 # VLSI-Internship
-# CODTECH Task 1 – Basic ALU Design
 
-This project implements a 4-bit Basic Arithmetic Logic Unit (ALU) in Verilog HDL.
+# CODTECH Task 1 – Basic ALU Design using Verilog HDL
 
-Operations:
+## Objective
+Design a 4-bit Basic Arithmetic Logic Unit (ALU) supporting:
 - Addition
 - Subtraction
 - AND
 - OR
 - NOT
 
-Files:
-basic_alu.v → ALU code
-basic_alu_tb.v → Testbench
-simulation_report.md → Output report
+## Description
+This project implements a Basic ALU in Verilog HDL capable of performing arithmetic and logical operations based on a selection input (ALU_Sel). The design was verified using simulation.
 
-Tools:
-EDA Playground / Quartus / Verilog HDL
+## Files Included
+- basic_alu.v → Verilog code for ALU implementation
+- basic_alu_tb.v → Testbench code for simulation
+- simulation_report.md → Simulation results and outputs
+
+## Tools Used
+- Verilog HDL
+- EDA Playground (Simulation)
+
+## Simulation Results
+Input:
+A = 1010
+B = 0011
+
+Outputs:
+000 → Addition → 1101
+001 → Subtraction → 0111
+010 → AND → 0010
+011 → OR → 1011
+100 → NOT → 0101
+
+## Conclusion
+The ALU successfully performs arithmetic and logical operations and produces expected outputs.
